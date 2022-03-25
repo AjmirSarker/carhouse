@@ -1,0 +1,16 @@
+.pr{
+    position: relative;
+}
+.ps{
+    position: fixed;
+    top: 87px;
+ 
+    padding-top: 20px;
+    width: 100%;
+   
+  
+
+}
+.marg-top{
+    margin-top: 120px;
+}

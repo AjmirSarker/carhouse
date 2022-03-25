@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "price": "₹15.53 Lakh",
+      "picture": "./cars/car-1.jpg",
+      "name": "Mahindra Thar",
+      "company": "Mahindra "
+    },
+    {
+      "id": 2,
+      "price": "₹23.79 Lakh",
+      "picture": "./cars/car-2.jpg",
+      "name": "Mahindra XUV700",
+      "company": "Mahindra"
+    },
+    {
+      "id": 3,
+      "price": "₹43.43 Lakh",
+      "picture": "./cars/car-3.jpg",
+      "name": "Toyota Fortuner",
+      "company": "Toyota"
+    },
+    {
+      "id": 4,
+      "price": "₹17.94 Lakh",
+      "picture": "./cars/car-4.jpg",
+      "name": "Hyundai Creta",
+      "company": "Hyundai"
+    },
+    {
+      "id": 5,
+      "price": "₹11.34 Lakh",
+      "picture": "./cars/car-5.jpg",
+      "name": "Maruti Vitara Brezza",
+      "company":"Maruti"
+    },
+    {
+      "id": 6,
+      "price": "₹13.73 Lakh",
+      "picture": "./cars/car-6.jpg",
+      "name": "Tata Nexon",
+      "company": "Tata"
+    },
+    {
+      "id": 7,
+      "price": "₹18.19 Lakh",
+      "picture": "./cars/car-7.jpg",
+      "name": "Kia Seltos",
+      "company": "Kia"
+    },
+    {
+      "id": 8,
+      "price": "₹11.87 Lakh",
+      "picture": "./cars/car-8.jpg",
+      "name": "Hyundai Venue",
+      "company": "Hyundai"
+    },
+    {
+      "id": 9,
+      "price": "₹21.81 Lakh",
+      "picture": "./cars/car-9.jpg",
+      "name": "Tata Harrier",
+      "company": "Tata"
+    },
+    {
+      "id": 10,
+      "price": "₹13.69 Lakh",
+      "picture": "./cars/car-10.jpg",
+      "name": "Kia Sonetr",
+      "company": "Kia"
+    },
+    {
+      "id": 11,
+      "price": "₹48.10 Lakh",
+      "picture": "./cars/car-11.jpg",
+      "name": "Mercedes-Benz GLA",
+      "company": "Mercedes"
+    },
+    {
+      "id": 12,
+      "price":"₹88.33 Lakh",
+      "picture": "./cars/car-12.jpg",
+      "name": "Audi Q7",
+      "company": "Audi"
+    }
+  ]
