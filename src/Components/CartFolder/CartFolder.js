@@ -2,7 +2,7 @@ import React from 'react';
 import './CartFolder.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
-
+// Taking data from cart picked
 const CartFolder = (props) => {
     const {name,picture}=props.onecart
    

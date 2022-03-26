@@ -3,7 +3,7 @@ import Accordion from '../Accordion/Accordion';
 import Cars from '../Cars/Cars';
 import Header from '../Header/Header';
 
-
+//Mother component
 const Shop = () => {
     return (
         <div>

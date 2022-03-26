@@ -1,3 +1,4 @@
+/* Single cart formating */
 .onecart{
     width: 100%;
   
@@ -5,6 +6,7 @@
 padding-right: 10px;
 word-wrap: break-word !important;
 }
+/* Single cart img */
 .onecart img{
     width: 10%;
     border-radius: 50%;

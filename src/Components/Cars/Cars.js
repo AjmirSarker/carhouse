@@ -6,7 +6,7 @@ import Modal from 'react-modal';
 const Cars = () => {
     
  
-        
+    // Modal    
     const customStyles = {
         content: {
           top: '50%',
@@ -19,20 +19,24 @@ const Cars = () => {
         },
       };
       Modal.setAppElement('#root');
+      // Usestate
   const [cars, setCars] = useState([]);
   const [modalIsOpen, setIsOpen] = useState(false);
+  //Modal open function
   function openModal() {
     setIsOpen(true);
   }
+  //Modal close function
   function closeModal() {
     setIsOpen(false);
   }
-  
+  //Load all data
   useEffect(() => {
     fetch('car.json')
       .then((res) => res.json())
       .then((car) => setCars(car));
   }, []);
+  //Add to cart
   const [cart, setCart] = useState([]);
 
   const AddToCart = (carSelect) => {
@@ -58,6 +62,7 @@ const Cars = () => {
  
     
   };
+  //Clear all call
   const clearAll=()=>{
     setCart([])
 

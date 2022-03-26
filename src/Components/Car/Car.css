@@ -1,3 +1,4 @@
+/* Car card footer */
 .new-footer{
     background-color: rgb(255, 255, 255);
     border: none;
@@ -19,25 +20,10 @@
                 -6px -6px 12px #ffffff;
    }
    
-   /* .AddToCart::before {
-    content: '';
-    width: 0;
-    height: 3em;
-    border-radius: 30em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(to right, #3d3c33 0%, #183536 100%);
-    transition: .5s ease;
-    display: block;
   
-    
-   } */
    
    .AddToCart:hover::before {
     width: 9em;
     
    }
-   /* .AddToCart:hover{
-    color: white;
-   } */
+  
