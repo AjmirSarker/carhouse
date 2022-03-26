@@ -1,7 +1,27 @@
+/* Word Break */
 .breakWord {
     word-wrap: break-word;
 }
+/* Cart car image */
+.canvuscar img{
+    width:14%;
+    border-radius: 30%;
 
+}
+/* Randomly Choosed */
+.choose img{
+    width: 10%;
+    border-radius: 30%;
+
+}
+.choose{
+width: 100%;
+  
+gap: 20px;
+padding-right: 10px;
+word-wrap: break-word !important;
+}
+/* Button */
 /* From css.moreAdds.io by @alexroumi */
 .moreAdd {
     padding: 15px 25px;

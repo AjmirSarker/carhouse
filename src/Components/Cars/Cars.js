@@ -5,10 +5,8 @@ import './Cars.css';
 import Modal from 'react-modal';
 const Cars = () => {
     
-    for(let i=0;i<=100;i++){
-        const a =0 + Math.floor(Math.random() * 4)
-        console.log(a);
-    }
+ 
+        
     const customStyles = {
         content: {
           top: '50%',
@@ -57,38 +55,18 @@ const Cars = () => {
     newCart=[...cart]
     openModal()
     }
-   let allId= newCart.map(ID=>newCart.id)
-   console.log(allId);
  
-   
-    // console.log('60 - 100 Random Number:', 60 + Math.floor(Math.random() * 40))
-   
-   
- 
-   
-    
-    
     
   };
+  const clearAll=()=>{
+    setCart([])
+
+  }
+ 
+
   return (
-    // <div className='  marg-top'>
-    //     <div className=" container row ">
-    //     <div className="col-7 col-md-8 col-lg-10 ">
-    //     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-    //             {
-    //               cars.map(car=><Car key={car.id} car={car}></Car>)
 
-    //             }
-    //         </div>
-    //     </div>
-    //     <div className="col-5 col-md-4 col-lg-2 ">
-    //         <div className='ps'
-    //         ><Cart></Cart></div>
-
-    //     </div>
-    //     </div>
-    // </div>
-    <div>
+    <div className='mb-5'>
     <div className="container marg-top">
       <div className="row">
         <div className="col-7 col-md-8 col-lg-9  ">
@@ -102,7 +80,7 @@ const Cars = () => {
         <div className="col-4 col-md-2 col-lg-2 ">
           <span>
           <div className="ps">
-            <Cart cart={cart}></Cart>
+            <Cart key={cart.id} clearAll={clearAll} cart={cart} ></Cart>
           </div>
           </span>
         </div>
@@ -117,8 +95,9 @@ const Cars = () => {
         style={customStyles }
         contentLabel="Example Modal"
       >
-         <h1>Can't select more than one product </h1>
+         <h1>Can't select more than one car of same model and can't add more than 4 models at a same time. </h1>
       </Modal>
+     
     </div>
     
   );

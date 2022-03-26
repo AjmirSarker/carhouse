@@ -11,7 +11,7 @@ const CartFolder = (props) => {
         <div className='onecart d-md-flex w-50 align-items-center mt-3  '>
            <img src={picture} alt="" />
            <h4>{name}</h4>
-           <FontAwesomeIcon  icon={faTrashCan }></FontAwesomeIcon>
+           <FontAwesomeIcon className='text-danger' icon={faTrashCan }></FontAwesomeIcon>
            
             
         </div>
