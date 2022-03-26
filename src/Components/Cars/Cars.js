@@ -3,6 +3,7 @@ import Car from '../Car/Car';
 import Cart from '../Cart/Cart';
 import './Cars.css';
 import Modal from 'react-modal';
+import Accordion from '../Accordion/Accordion';
 const Cars = () => {
     
  
@@ -81,6 +82,7 @@ const Cars = () => {
             ))}
           
           </div>
+          <Accordion></Accordion>
         </div>
         <div className="col-4 col-md-2 col-lg-2 ">
           <span>

@@ -8,10 +8,11 @@ const CartFolder = (props) => {
    
     
     return (
-        <div className='onecart d-md-flex w-50 align-items-center mt-3  '>
+        <div className='onecartt d-md-flex w-50 align-items-center mt-3  '>
            <img src={picture} alt="" />
-           <h4>{name}</h4>
-           <FontAwesomeIcon className='text-danger' icon={faTrashCan }></FontAwesomeIcon>
+           <p className='fw-bold'>{name} <FontAwesomeIcon className='text-danger' icon={faTrashCan }></FontAwesomeIcon></p>
+         
+         
            
             
         </div>

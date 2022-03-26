@@ -23,7 +23,7 @@ const Cart = (props) => {
     return (
         <div >
        
-            <h2 className='fw-bolder breakWord overflow-wrap'>Selected Cars</h2>
+            <h4 className='fw-bolder breakWord overflow-wrap'>Selected Cars</h4>
             {
             <div className='w-100'>
              {cart.map(one=><CartFolder key={one.id} onecart={one}></CartFolder>
@@ -34,7 +34,7 @@ const Cart = (props) => {
             </div>
 }
 
-<button className="btn btn-dark mt-5  " onClick={Choose} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Choose One</button>
+<button className="btn btn-dark mt-5 ButtonHover fw-bold " onClick={Choose} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Choose One</button>
 
 <div className="offcanvas offcanvas-bottom" tabIndex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
   <div className="offcanvas-header">
@@ -54,7 +54,7 @@ const Cart = (props) => {
 </div>
 
 <br />
-<button onClick={props.clearAll} className='moreAdd'> Clear Cart
+<button onClick={props.clearAll} className=' fw-bold btn btn-dark mt-5 ButtonHover'> Clear Cart
 </button>
       
             

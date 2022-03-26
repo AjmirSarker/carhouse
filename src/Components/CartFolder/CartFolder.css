@@ -1,13 +1,13 @@
 /* Single cart formating */
-.onecart{
+.onecartt{
     width: 100%;
-  
    gap: 20px;
 padding-right: 10px;
 word-wrap: break-word !important;
+
 }
 /* Single cart img */
-.onecart img{
+.onecartt img{
     width: 10%;
     border-radius: 50%;
 }
