@@ -15,7 +15,7 @@ const Car = (props) => {
             <p className="card-text">{price}</p>
           </div>
           <div className="card-footer new-footer ">
-            <button className='AddToCart'><span className='me-3'> Add To Cart         </span>
+            <button onClick={()=>{props.AddToCart(props.car)}} className='AddToCart'><span className='me-3'> Add To Cart </span>
             <FontAwesomeIcon icon={faShoppingCart }></FontAwesomeIcon>
        </button>
           </div>

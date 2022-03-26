@@ -31,7 +31,7 @@
       "id": 5,
       "price": "₹11.34 Lakh",
       "picture": "./cars/car-5.jpg",
-      "name": "Maruti Vitara Brezza",
+      "name": "Maruti Vitara ",
       "company":"Maruti"
     },
     {
@@ -73,7 +73,7 @@
       "id": 11,
       "price": "₹48.10 Lakh",
       "picture": "./cars/car-11.jpg",
-      "name": "Mercedes-Benz GLA",
+      "name": "Mercedes-Benz ",
       "company": "Mercedes"
     },
     {
